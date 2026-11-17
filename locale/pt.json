@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Uso do OpenCode Go",
+    "description": "Mostra o limite do OpenCode Go (5 horas, semana, mês) e o custo em USD desta sessão em duas pílulas ao lado dos contadores de token embaixo do compositor, para uma rota opencode-go. O limite vem do endpoint de uso do próprio provedor com a mesma chave de API que a rota usa; o custo é calculado a partir do log da sessão com as tarifas publicadas do plano Go, incluindo pico e fora de pico da DeepSeek. A pílula de limite atualiza ao clicar e as duas releem a cada chamada ao modelo. Limitações: o endpoint informa percentual, então o dólar por janela é uma estimativa a partir do limite mensal configurado, e modelo sem preço configurado não mostra custo. Ajuste preços, limites mensais e a referência da chave na linha do bundle.",
+    "detail": "docs/DETAIL.pt.md"
+  }
+}

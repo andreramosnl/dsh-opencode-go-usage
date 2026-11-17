@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "OpenCode Go usage",
+    "description": "Shows the OpenCode Go allowance (5-hour, weekly, monthly) and this session's USD cost in two pills beside the token counters under the composer, for an opencode-go route. The allowance comes from the provider's own usage endpoint with the same API key the route uses; the cost is folded from the session log with the published Go rates, including DeepSeek peak and off-peak. The allowance pill refreshes on click and both read again after every model call. Limits: the endpoint reports percentages, so window dollars are an estimate from the configured monthly limit, and unpriced models show no cost. Configure prices, monthly limits, and the key reference in the bundle row.",
+    "detail": "docs/DETAIL.md"
+  }
+}

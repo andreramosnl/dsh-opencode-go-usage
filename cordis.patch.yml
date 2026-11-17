@@ -1,0 +1,7 @@
+# OpenCode Go usage meter: allowance windows and the session's USD cost.
+- insert:
+    - id: opencode-go-usage
+      name: '@local/dsh-opencode-go-usage'
+      config:
+        apiKeyRef: OPENCODE_GO_API_KEY
+        quotaTtlSeconds: 30

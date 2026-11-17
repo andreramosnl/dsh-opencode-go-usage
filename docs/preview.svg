@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300" role="img" aria-label="Composer dock with the OpenCode Go allowance and session-cost pills">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2127"/>
+      <stop offset="1" stop-color="#141a1f"/>
+    </linearGradient>
+    <linearGradient id="stitch" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2f8f6b"/>
+      <stop offset="1" stop-color="#2f7f9b"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="640" height="300" rx="18" fill="url(#card)"/>
+  <rect x="0.75" y="0.75" width="638.5" height="298.5" rx="18" fill="none" stroke="#2b353d" stroke-width="1.5"/>
+
+  <!-- faint transcript above the composer -->
+  <g fill="#242c33">
+    <rect x="64" y="44" width="286" height="9" rx="4.5"/>
+    <rect x="64" y="63" width="212" height="9" rx="4.5"/>
+    <rect x="376" y="44" width="176" height="9" rx="4.5"/>
+    <rect x="376" y="63" width="128" height="9" rx="4.5"/>
+  </g>
+
+  <!-- composer card -->
+  <rect x="48" y="128" width="544" height="136" rx="16" fill="#0f1418" stroke="#2f3a43" stroke-width="1.5"/>
+  <g fill="#39434c">
+    <rect x="72" y="152" width="220" height="9" rx="4.5"/>
+    <rect x="72" y="172" width="150" height="9" rx="4.5"/>
+  </g>
+
+  <!-- send button -->
+  <circle cx="550" cy="166" r="15" fill="#243039"/>
+  <path d="M550 159.5 550 172.5M544.5 165 550 159.5 555.5 165" fill="none" stroke="#9fb0bb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- dock row: two shipped pills, then the two contributed pills -->
+  <g stroke="#39434c" stroke-width="1.5" stroke-linecap="round">
+    <path d="M72 216h30"/>
+    <path d="M118 216h38"/>
+  </g>
+  <g fill="#3d4750">
+    <circle cx="64" cy="216" r="5.5"/>
+    <circle cx="110" cy="216" r="5.5"/>
+  </g>
+
+  <!-- allowance pill -->
+  <rect x="186" y="202" width="240" height="28" rx="8" fill="#182026" stroke="#2f7f73" stroke-width="1.4"/>
+  <g fill="none" stroke="#59c6a5" stroke-width="2" stroke-linecap="round">
+    <path d="M200 222a8 8 0 0 1 15 0"/>
+    <path d="M208 221l4.2-7"/>
+  </g>
+  <circle cx="207.5" cy="221.5" r="1.6" fill="#59c6a5"/>
+  <g fill="#cfd9df">
+    <rect x="226" y="211" width="22" height="10" rx="5"/>
+    <rect x="266" y="211" width="10" height="10" rx="5"/>
+    <rect x="284" y="211" width="20" height="10" rx="5"/>
+    <rect x="322" y="211" width="10" height="10" rx="5"/>
+    <rect x="340" y="211" width="34" height="10" rx="5"/>
+  </g>
+  <g fill="#6f7c86">
+    <circle cx="257" cy="216" r="1.7"/>
+    <circle cx="313" cy="216" r="1.7"/>
+  </g>
+  <g fill="#f0b429">
+    <rect x="386" y="211" width="32" height="10" rx="5"/>
+  </g>
+
+  <!-- session cost pill -->
+  <rect x="438" y="202" width="120" height="28" rx="8" fill="#182026" stroke="#2f7f9b" stroke-width="1.4"/>
+  <g fill="none" stroke="#6fb6d6" stroke-width="1.5" stroke-linejoin="round">
+    <path d="M453 210h11v17l-2-1.4-1.8 1.4-1.8-1.4-1.8 1.4-1.8-1.4-1.8 1.4z"/>
+    <path d="M455.5 215h6M455.5 218.4h6" stroke-linecap="round"/>
+  </g>
+  <g fill="#cfd9df">
+    <rect x="474" y="211" width="12" height="10" rx="5"/>
+    <rect x="492" y="211" width="28" height="10" rx="5"/>
+    <rect x="526" y="211" width="20" height="10" rx="5"/>
+  </g>
+
+  <!-- context meter at the end of the dock -->
+  <circle cx="574" cy="216" r="8.5" fill="none" stroke="#39434c" stroke-width="2.2"/>
+  <path d="M574 207.5a8.5 8.5 0 0 1 6 14.5" fill="none" stroke="#8b98a2" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- accent stitch under the contributed pills -->
+  <path d="M186 240h240" stroke="url(#stitch)" stroke-width="2.4" stroke-linecap="round" opacity="0.65"/>
+  <path d="M438 240h120" stroke="url(#stitch)" stroke-width="2.4" stroke-linecap="round" opacity="0.65"/>
+</svg>
